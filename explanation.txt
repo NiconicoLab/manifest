@@ -8,3 +8,11 @@ repo sync
 記述したmanifestは下記のものと同じになる
 .repo/manifests/default.xml
 ※他ファイルも含めて.repo/manifests/のファイルがgit上のmanifestリポジトリの内容となる
+
+■repoの環境構築(macの場合)
+1. repoを持ってくる
+   https://storage.googleapis.com/git-repo-downloads/repo 
+2. 実行権限を付与
+   $ chmod a+x ~/Downloads/repo
+3. PATHを通しているPATHへ配置
+   $ mv ~/Downloads/repo /usr/local/bin
