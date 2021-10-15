@@ -1,0 +1,10 @@
+■repo本体をダウンロード
+repo init -u https://github.com/NiconicoLab/manifest
+
+■manifestに記述されたリポジトリ&ブランチから取得(ソースコードの同期等)
+repo sync
+
+■その他
+記述したmanifestは下記のものと同じになる
+.repo/manifests/default.xml
+※他ファイルも含めて.repo/manifests/のファイルがgit上のmanifestリポジトリの内容となる
